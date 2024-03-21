@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: rgb(75, 75, 135);
+  background: linear-gradient(
+    180deg,
+    rgba(75, 75, 135, 1) 0%,
+    rgba(2, 0, 36, 1) 43%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* border: 3px solid green; */
+}
